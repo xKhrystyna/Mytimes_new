@@ -12,38 +12,29 @@ left: 20px;
 display: flex;
 flex-wrap: wrap;
 width: 450px;
-border-style: solid;
-border-width: 1px;
-border-color: red;
-}
-.fbistory{
-  width: 240px;
-  display: flex;
-  flex-wrap: wrap;
-  border-style: solid;
-  border-width: 1px;
-  border-color: blue;
-}
-.motherofall{
-flex-direction: row;
-width: 755px;
-display: flex;
-justify-content: space-around;
-border-style: solid;
-border-width: 1px;
-border-color: green;
-}
-h3{
 
 }
+.fbistory{
+  width: 245px;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.motherofall{
+flex-direction: row;
+width: 765px;
+display: flex;
+justify-content: space-around;
+
+}
+
 .columnleft, .columnright{
 width: 200px;
 display: flex;
 flex-wrap: wrap;
 justify-content: space-around;
-border-style: solid;
-border-width: 1px;
-border-color: red;
+
 }
 .catstext{
 width: 240px;
@@ -51,21 +42,16 @@ width: 240px;
 .cats{
 display: flex;
 flex-wrap: wrap;
-border-style: solid;
-border-width: 1px;
-border-color: yellow;
 flex-direction: column;
 margin-left: 40px;
 }
-.test{
+.twocolumns{
 flex-direction: row;
 display: flex;
 width: 475px;
 justify-content: space-around;
 align-items: flex-start;
-border-style: solid;
-border-width: 1px;
-border-color: black;
+
 }
 .image2, .image3, .image4{
 position: relative;
@@ -74,28 +60,26 @@ position: relative;
   position: absolute;
   width: 170px;
   text-align: center;
-  top: 980px;
-  left: 200px;
+  top: 1020px;
+  left: 332px;
 }
 .centertext2{
   position: absolute;
   width: 170px;
   text-align: center;
-  top: 980px;
-  left: 450px;
+  top: 1020px;
+  left: 560px;
 }
 .centertext3{
   position: absolute;
   width: 170px;
   text-align: center;
-  top: 750px;
-  left: 730px;
+  top: 790px;
+  left: 850px;
 }
 body{
-  margin-left: 80px;
-  margin-right: 80px;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 120px;
+  margin-bottom: 80px;
 }
 h3{
   color: white;
@@ -103,18 +87,91 @@ h3{
 .mainstorybottom{
   display: flex;
   flex-wrap: wrap;
+  width: 800px;
+  margin-left: 287px;
+
 }
 .box{
   background-color: gainsboro;
   width: 210px;
   padding: 7px;
   border-bottom: 1px solid black;
+  margin-left: 20px;
 }
 .cookiepanel{
 display: flex;
 flex-direction: column;
-width: 290px;
-border-style: solid;
-border-width: 1px;
-border-color: orange;
+width: 270px;
+}
+.finalwrap{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+h4{
+  text-align: center;
+}
+.list{
+display: flex;
+align-items: flex-start;
+width: 1450px;
+justify-content: flex-end;
+}
+
+li{
+  display: inline-flex;
+  padding: 7px;
+  font-weight: bold;
+  font-family: Helvetica;
+  color: black;
+
+}
+#bottomlist{
+  font-weight: normal;
+  width: 290px;
+
+}
+.header{
+position: fixed;
+top: 0px;
+width: 100%;
+background-color: #fff;
+z-index: 1;
+border-bottom: 1px solid black;
+display: flex;
+flex-wrap: wrap;
+
+}
+.imageheader{
+display: flex;
+}
+.mytimes{
+  display: flex;
+  color: #00cc99;
+  font-weight: bold;
+  font-family: Helvetica;
+  margin-top: 25px;
+  margin-left: 7px;
+}
+.footermain{
+background-color: #00cc99;
+width: 100%;
+padding: 70px;
+}
+.footer{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.bottomtext{
+text-align: center;
+padding: 10px;
+}
+.mytimesbottom{
+  color: white;
+  align-items: center;
+  border-right: 2px solid white;
+  padding: 7px;
 }
